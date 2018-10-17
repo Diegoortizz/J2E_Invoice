@@ -108,6 +108,7 @@ public class DAO {
                     }
 
                 }
+                connection.commit();
 
             } catch (SQLException e) {
                 connection.rollback(); // On annule la transaction
